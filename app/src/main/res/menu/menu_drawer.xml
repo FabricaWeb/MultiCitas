@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/opcion_inicio"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio"/>
+        <item
+            android:title="Citas">
+                <menu>
+                    <item
+                        android:id="@+id/opcion_nueva"
+                        android:checked="true"
+                        android:icon="@drawable/ic_home"
+                        android:title="Nueva"/>
+                    <item
+                        android:id="@+id/opcion_cambiar"
+                        android:checked="true"
+                        android:icon="@drawable/ic_home"
+                        android:title="Cambiar"/>
+                    <item
+                        android:id="@+id/opcion_anular"
+                        android:checked="true"
+                        android:icon="@drawable/ic_home"
+                        android:title="Anular"/>
+                </menu>
+        </item>
+        <item
+            android:id="@+id/opcion_historial"
+            android:icon="@drawable/ic_home"
+            android:title="Historial"/>
+        <item
+            android:title="Avanzado">
+            <menu>
+                <item
+                    android:id="@+id/opcion_perfil"
+                    android:icon="@drawable/ic_home"
+                    android:title="Perfil"/>
+                <item
+                    android:id="@+id/opcion_configurar"
+                    android:checked="true"
+                    android:icon="@drawable/ic_home"
+                    android:title="Configurar"/>
+                <item
+                    android:id="@+id/opcion_salir"
+                    android:checked="true"
+                    android:icon="@drawable/ic_home"
+                    android:title="Salir"/>
+            </menu>
+        </item>
+
+
+    </group>
+</menu>
