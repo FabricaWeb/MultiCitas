@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Multicitas</string>
+    <string name="phone">Número Teléfono</string>
+    <string name="password">Contraseña</string>
+    <string name="login">INICIAR SESIÓN</string>
+    <string name="register">REGISTRARSE</string>
+    <string name="lostPasword">¿Has olvidado la contraseña?</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="slide"><![CDATA[< DESLIZA]]></string>
 </resources>
